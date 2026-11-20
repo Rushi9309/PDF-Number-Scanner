@@ -39,7 +39,7 @@ jobs:
       - name: Extract LongShot project
         run: |
           mkdir -p project
-          unzip -q LongShot_AutoScroll_Companion_Source.zip -d project
+          unzip -q "LongShot_AutoScroll_Companion_Source (2).zip" -d project
 
       - name: Build APK
         working-directory: project
